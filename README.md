@@ -57,3 +57,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+#  Sistema de Bitácoras - Laravel
+
+##  Descripción
+Sistema de registro de bitácoras desarrollado en Laravel con PostgreSQL para el seguimiento de actividades y eventos del sistema.
+
+## 🛠 Tecnologías
+- **Backend:** Laravel 10.x
+- **Base de datos:** PostgreSQL
+- **Frontend:** Blade Templates
+- **Autenticación:** Laravel UI
+
+##  Características
+- Registro de actividades del sistema
+- Gestión de usuarios
+- Bitácoras automatizadas
+- Interfaz administrativa
+
+## Instalación
+```bash
+composer install
+php artisan migrate
+php artisan serve
